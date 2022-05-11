@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '../components/HelloWorld'
 import Ques5 from '../components/Ques5'
+import Que6 from '../components/Que6'
  Vue.use(Router)
 const routes = [
     {
@@ -13,6 +14,11 @@ const routes = [
         path:'/Ques5',
         name:'App',
         component:Ques5
+    },
+    {
+        path:'/Que6',
+        name:'App',
+        component:Que6
     },
 ]
 
